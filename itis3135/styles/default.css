@@ -123,3 +123,40 @@ footer {
 }
 
 
+/* SLIDESHOW CSS */
+.slideshow-container{
+    width: 405px;
+    margin: 40px auto;
+    overflow: auto;
+}
+
+
+.slide-main {
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    padding: 4;
+    border: solid 1px;
+
+}
+
+.slide-main img{
+   
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+.image-list ul{
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+
