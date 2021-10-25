@@ -1,0 +1,100 @@
+/** COLOR SCHEME 
+#93827F
+#F3F9D2
+#BDC4A7
+#2F2F2F
+#92B4A7
+**/
+
+
+body {
+    background-color: #F3F9D2;
+    
+}
+
+footer {
+    text-align: center;
+    margin: 40px;
+    
+    
+}
+
+footer a{
+    margin: 5px;
+}
+
+a {
+    color: #2F2F2F;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #93827F;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 95%;
+    
+    
+}
+
+header h1{
+    opacity: 100%;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    opacity: 100%;
+
+}
+
+.main-nav ul li {
+    margin-right: 20px;
+    opacity: 100%;
+    
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    opacity: 100%;
+}
+
+.main-nav ul li a:hover {
+    color: #F3F9D2;
+}
+
+.container img{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 50%;
+
+}
+.container {
+    text-align: center;
+
+}
+
+.container h3 {
+    font-size: 75px;
+}
+
+
+
+
+
