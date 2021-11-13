@@ -1,0 +1,159 @@
+
+.main_header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    opacity: 95%;
+    background: #00511d;
+}
+
+.main_header h4 {
+    margin: 10px;
+    margin-left: 20px;
+}
+
+
+.topnav {
+    margin-right: 20px;
+    display: block;
+    float: right;
+    
+    
+}
+
+.topnav a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.image_slider  {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.slider_image img{
+   width: 700px;
+    
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.textbox {
+    margin: 30px;
+
+}
+
+.flex_container img {
+    margin: 30px;
+    width: 400px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1 px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 30px;
+    
+}
+
+button[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+.form_container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form_title {
+    margin-top: 100px;
+    margin-bottom: -20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about_section {
+    padding: 50px;
+    text-align: center;
+    color: black;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 10px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  iframe {
+      margin: 50px;
+  }
+
+
+
+
+
+
+
+.main_footer {
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00511d;
+    height: 100px;
+}
+
+.main_footer a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}

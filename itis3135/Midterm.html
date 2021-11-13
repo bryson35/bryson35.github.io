@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Weekly Calorie Calculator</title>
+    <link rel="stylesheet" href="styles/Midterm.css">
+    <script src="scripts/Midterm.js"></script>
+</head>
+
+<body>
+<main>
+    <h1>Weekly Calorie Calculator</h1>
+    <!--add the form-->
+    <h2>Enter Your Details</h2>
+    <form id="your_details" name="your_details" action="#" >
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+
+        <p>Choose a day:</p>
+        <label for="monday">Monday</label>
+        <input type="radio" name="day" id="monday" value="0">
+        <label for="tuesday">Tuesday</label>
+        <input type="radio" name="day" id="tuesday" value="1">
+        <label for="wednesday">Wednesday</label>
+        <input type="radio" name="day" id="wednesday" value="2">
+        <label for="thursday">Thursday</label>
+        <input type="radio" name="day" id="thursday" value="3">
+        <label for="friday">Friday</label>
+        <input type="radio" name="day" id="friday" value="4">
+        <label for="saturday">Saturday</label>
+        <input type="radio" name="day" id="saturday" value="5">
+        <label for="sunday">Sunday</label>
+        <input type="radio" name="day" id="sunday" value="6">
+
+        <label for="calories">Enter the Calories:</label>
+        <input type="number" id="calories">
+
+        <button id="update">Update</button>
+        <button id="averageCal">Average Calories</button>
+
+        <label for="average">Average Calories Consumed is:</label>
+        <input type="text" id="average">
+
+
+    
+
+
+    <!--header for showing maximum calorie amount and cheat day-->
+    <strong id="show_max">Show Maximum Calorie and Cheat Day:</strong>
+    <!--div for showing maximum calorie amount and cheat day-->
+    <div id="showMax"></div>
+
+</main>
+<footer>
+    <br/>
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fbwhite90%2Fitis3135%2FMidterm.html">Validate HTML</a>
+    <br/>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fbwhite90%2Fitis3135%2FMidterm.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Validate CSS</a>
+</footer>
+</body>
+</html>
