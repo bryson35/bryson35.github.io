@@ -1,0 +1,20 @@
+{"staff":[
+	{
+		"name":"Krista Chapman",
+		"title":"Behavior Liaison Specialist",
+		"email":"kchapman@kcs.com",
+        "image":"images/krista.jpg"
+	},
+	{
+		"name":"Deborah Pruitte",
+		"title":"Administrative Assistant",
+		"email":"dpruitte@kcs.com",
+        "image":"images/deb.jpg"
+	},
+	{
+		"name":"Laura McFaddin",
+		"title":"EC Data Manager",
+		"email":"lmcfaddin@kcs.com",
+        "image":"images/laura.jpg"
+	}
+]}
